@@ -1,0 +1,6 @@
+@ShittonOfData_HostAddress = http://localhost:5244
+
+GET {{ShittonOfData_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
