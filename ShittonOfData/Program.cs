@@ -10,6 +10,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        builder.Services.AddSingleton<IContainer, Container>();
         builder.Services.AddScoped<IService, Service>();
 
         builder.Services.AddControllers();
